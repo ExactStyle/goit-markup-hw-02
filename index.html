@@ -3,31 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Студия</title>
 </head>
 <body>
     <!-- Шапка -->
     <header>
-        <nav>
-            <a lang="en" href="./index.html">Web Studio</a>
-            <ul>
+        <nav class="nav-header">
+            <a class="logo link" lang="en" href="./index.html"><span>Web</span> Studio</a>
+            <ul class="list">
                 <li>
-                    <a href="./index.html">Студия</a>
+                    <a class="link" href="./index.html">Студия</a>
                 </li>
                 <li>
-                    <a href="./portfolio.html">Портфолио</a>
+                    <a class="link" href="./portfolio.html">Портфолио</a>
                 </li>
                 <li>
-                    <a href="">Контакты</a>
+                    <a class="link" href="">Контакты</a>
                 </li>
             </ul>
             <address>
-                <ul>
+                <ul class="list">
                     <li>
-                        <a lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        <a class="link" lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
                     <li>
-                        <a href="tel:+380961111111">+38 096 111 11 11</a>
+                        <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
                     </li>
                 </ul>
             </address>
@@ -36,14 +39,14 @@
     <!-- Основной контент -->
     <main>
         <!-- Заказать услугу -->
-        <section>
-            <h1>эффективные решения для вашего бизнеса</h1>
-            <a href="">Заказать услугу</a>
+        <section class="hero">
+            <h1 class="title">эффективные решения для вашего бизнеса</h1>
+            <a class="link" href="">Заказать услугу</a>
         </section>
         <!-- Особенности веб студии -->
         <section>
             <h2>Особенности веб студии</h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <a href="">
                         <img src="./images/features/antenna.svg" alt="Антенна" width="70" height="70">
@@ -75,23 +78,23 @@
             </ul>
         </section>
         <!-- Чем мы занимаемся -->
-        <section>
-            <h2>Чем мы занимаемся</h2>
-            <ul>
+        <section class="directions">
+            <h2 class="title">Чем мы занимаемся</h2>
+            <ul class="list">
                 <li>
-                    <a href="">
+                    <a class="link" href="">
                         <img src="./images/directions/desktop.jpg" alt="Ноутбук" width="370" height="295">
                         Десктопные приложения
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a class="link" href="">
                         <img src="./images/directions/mobile.jpg" alt="Смартфон" width="370" height="295">
                         Мобильные приложения
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a class="link" href="">
                         <img src="./images/directions/design.jpg" alt="Монитор" width="370" height="295">
                         Дизайнерские решения
                     </a>
@@ -99,16 +102,16 @@
             </ul>
         </section>
         <!-- Наша команда -->
-        <section>
-            <h2>Наша команда</h2>
-            <ul lang="en">
+        <section class="team">
+            <h2 class="title">Наша команда</h2>
+            <ul class="list" lang="en">
                 <li>
                     <a href="">
                         <img src="./images/team/smith.jpg" alt="John Smith" width="270" height="260">
                     </a>
                     <h3>John Smith</h3>
                     <p>Product Designer</p>
-                    <ul>
+                    <ul class="list">
                         <li>
                             <a aria-label="instagram link" href="">
                                 <img src="./images/social/instagram.svg" alt="instagram">
@@ -137,7 +140,7 @@
                     </a>
                     <h3>Marta Stewart</h3>
                     <p>Frontend Developer</p>
-                    <ul>
+                    <ul class="list">
                         <li>
                             <a aria-label="instagram link" href="">
                                 <img src="./images/social/instagram.svg" alt="instagram">
@@ -166,7 +169,7 @@
                     </a>
                     <h3>Robert Jakis</h3>
                     <p>Marketing</p>
-                    <ul>
+                    <ul class="list">
                         <li>
                             <a aria-label="instagram link" href="">
                                 <img src="./images/social/instagram.svg" alt="instagram">
@@ -195,7 +198,7 @@
                     </a>
                     <h3>Martin Doe</h3>
                     <p>UI Designer</p>
-                    <ul>
+                    <ul class="list">
                         <li>
                             <a aria-label="instagram link" href="">
                                 <img src="./images/social/instagram.svg" alt="instagram">
@@ -221,9 +224,9 @@
             </ul>
         </section>
         <!-- Постоянные клиенты -->
-        <section>
-            <h2>Постоянные клиенты</h2>
-            <ul lang="en">
+        <section class="clients">
+            <h2 class="title">Постоянные клиенты</h2>
+            <ul class="list" lang="en">
                 <li>
                     <a aria-label="company link" href="">
                         <img src="./images/clients/logo_1.svg" alt="YA & CO">
@@ -258,18 +261,18 @@
         </section>
     </main>
     <!-- Подвал -->
-    <footer>
+    <footer class="footer">
         <!-- Адресс -->
-        <a href="./index.html">Web Studio</a>
-        <address>
+        <a class="logo link" lang="en" href="./index.html"><span>Web</span> Studio</a>
+        <address class="adress">
             <p>г. Киев, пр-т Леси Украинки, 26</p>
-            <a href="mailto:info@example.com">info@example.com</a>
-            <a href="tel:+380991111111">+38 099 111 11 11</a>
+            <a class="link" href="mailto:info@example.com">info@example.com</a>
+            <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
         </address>
         
         <!-- Соцсети студии -->
-        <h2>присоединяйтесь</h2>
-        <ul lang="en">
+        <p class="text">присоединяйтесь</p>
+        <ul class="list" lang="en">
             <li>
                 <a aria-label="instagram link" href="">
                     <img src="./images/social/instagram.svg" alt="instagram">
@@ -292,7 +295,7 @@
             </li>
         </ul>
 
-        <p>2020 | Developed by GoIT Students </p>
+        <p class="developed">2020 | Developed by GoIT Students </p>
     </footer>
 </body>
 </html>
